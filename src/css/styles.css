@@ -1,0 +1,36 @@
+/* Body style*/
+body {
+    font-family: 'Open Sans',sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    background-color: palevioletred;
+}
+
+a {
+    font-size: 18px;
+}
+
+/* Introduction */
+#intro {
+    width: auto;
+    height: auto;
+    font-style: italic;
+    background-color: #5294FF;
+    font-size: 16px;
+    border-left-style: solid;
+    border-left-width: 10px;
+    padding: 20px;
+}
+
+#socials {
+    width: auto;
+    height: auto;
+    font-style: italic;
+    background-color: #5294FF;
+    font-size: 16px;
+    border-left-style: solid;
+    border-left-width: 10px;
+    padding: 20px;
+}
