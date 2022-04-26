@@ -1,11 +1,15 @@
 /* Body style*/
 body {
     font-family: 'Open Sans',sans-serif;
-    text-align: center;
+    text-align: left;
     color: white;
     font-size: 18px;
     padding: 12px;
-    background-color: palevioletred;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 41%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
 }
 
 a {
@@ -16,8 +20,12 @@ a {
 #intro {
     width: auto;
     height: auto;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(45deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 49%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 49%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(45deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 49%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
     font-style: italic;
-    background-color: #5294FF;
     font-size: 16px;
     border-left-style: solid;
     border-left-width: 10px;
@@ -27,8 +35,13 @@ a {
 #socials {
     width: auto;
     height: auto;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(45deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 49%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 49%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(45deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 49%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
     font-style: italic;
-    background-color: #5294FF;
+    text-align: left;
     font-size: 16px;
     border-left-style: solid;
     border-left-width: 10px;
